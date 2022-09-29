@@ -1,0 +1,51 @@
+img{
+    object-fit: cover;
+}
+.img{
+    padding-left: 52px;
+   
+}
+.tab{
+    margin-top: 10px;
+margin-bottom: 10px;
+}
+.Rname{
+  
+    font-size: 35px;
+    font-weight: 600;
+    color: #191939;
+}
+
+.about{
+    font-size: 21px;
+    font-weight: 600;
+    color: #191939;
+    margin-bottom: 20px;
+}
+.cuisineName{
+    display: inline;
+    margin-right: 8px;
+}
+.head{
+    font-size: 18px;
+    font-weight: 600;
+    color: #191939;
+    margin-top: 15px;
+}  
+.value{
+    font-size: 17px;
+    font-weight: 500;
+    color: #191939;
+}
+.tabPanel{
+ padding: 10px;
+}
+.details{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 200px;
+}
+
+.tabName{
+    border-bottom: 2px rgb(62, 0, 0) solid;
+}

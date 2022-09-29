@@ -1,0 +1,166 @@
+.header{
+    background-color: #CE0505;
+    height: 80px;
+    padding-left: 112px;
+    padding-top: 16px; 
+    
+}
+
+.icon{
+    display: inline-block;
+    top: 15px;
+    left: 102px;
+     width: 52px;
+    height: 52px;
+    /* UI Properties */
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+}
+.text{
+    height:47px;
+    width: 32px;
+    margin-left: 11px;
+    font-weight: 600;
+
+    font: normal  normal 600 33px/50px Poppins; 
+    font-size: 33px;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+    font: Poppins;
+}
+.log{
+    display: inline-flex;
+    float: right;
+    margin-right: 101px;
+    margin-top: 8px;
+    width: 25%;
+    
+}
+.login-p{
+    margin-right: 23px;
+    border: 0;
+    background-color: #CE0505;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    color: #ffffff;
+    cursor: pointer;
+}
+.login-p:hover{
+    color: antiquewhite;
+    opacity: 100%;
+}
+.createAcc-p{
+    top: 17px;
+    left: 1084px;
+   
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+    background-color: #CE0505;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: all 0.25s ease-in;
+}
+.createAcc-p:hover{
+    background-color: #d81717;
+    color: antiquewhite;
+}
+ .tab{   
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 20px;
+ } 
+
+ .closeBtn{
+   font-weight: 600;
+   font-size: 30px;
+    float: right;
+    color: black;
+    border-radius: 50%;
+    /* background-color: black; */
+ }
+ .closeBtn:hover{
+    color: #CE0505;
+ }
+ .logIn{
+    font-weight: 600;
+   margin-top: 10px;
+   font-size: 35px;
+ }
+ .logInForm{
+    display: block;
+    text-align: center;
+   
+ }
+ form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+ }
+ .logButton{
+    background-color: rgb(210, 60, 60);
+  
+    color:white;
+    font-size: 18px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 7px;
+ }
+ .logButton:hover{
+    background-color: rgb(253, 37, 37);
+    color:rgb(214, 205, 205);
+ }
+ .btnFacebook { 
+
+    width: 200px;
+    height:45px;  
+    border-radius: 4px;
+    background: #3b5998;
+    color:white;
+    border:0px transparent;  
+    text-align: center;
+    margin-left:34px;
+    display: inline-block;
+  }
+  .btnGoogle { 
+    margin-left:28px;
+    margin-top: 15px;
+    /* margin:5px;
+    width: 165px;
+    height:35px; */
+    /* border-radius: 4px;
+    background: #db3236;
+    color:white;
+    border:0px transparent;
+    text-align: center; */
+  }
+  .btnFacebook:hover {
+    background: #3b5998;
+    opacity: 0.6;
+  }
+  .btnGoogle:hover {
+    /* background: #db3236;
+    opacity: 0.6; */
+  }
+.inputCred{
+  background-color: white;
+ 
+  height: 40px;
+  border:2px solid #aaa;
+  border-radius:4px;
+ outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+.inputCred:focus{
+  border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}

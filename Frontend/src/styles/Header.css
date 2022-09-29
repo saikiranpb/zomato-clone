@@ -1,0 +1,205 @@
+*{   
+    font-family: Poppins;
+    /* width:100px; */
+}
+body{
+    background-color: #fbfbfb;
+    margin: 0;
+}
+
+.back-img{
+    
+    background-image: linear-gradient(to bottom, rgba(228, 208, 208, 0), #290b0b), url("../Assets/imgh.png");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 480px;
+}
+
+.login, .createacc{
+    text-decoration: none;
+    color: rgb(255, 226, 226);
+    opacity: 0.8;
+    font-weight: 500;
+}
+.login:hover, .createacc:hover{
+    color: white;
+   
+}
+.createacc{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.logo{
+    display: inline;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 600;
+    color: #eb2929;
+    height: 147px;
+    width: 147px;
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.restaurant-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.locationDropdown, .restaurantsinput{
+    font-size: 15px;
+    color: #636f88;
+    width: 100%;
+    height: 60px;
+}
+.restaurantSelector{
+    position: relative;
+}
+#rList ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   border: 1px solid rgb(147, 147, 147); 
+}
+#rList ul li{
+    border:0.5px solid rgb(233, 230, 230);
+ 
+    
+    padding: 5px 10px;
+    background-color: white;
+    border-top: none;
+    text-align: left;
+    cursor: pointer;
+
+}
+#rList ul li:hover{
+    background-color: gray;
+    color: white;
+}
+.link{
+    color: black;
+}
+ .link:hover{
+    color: white;
+} 
+.search-icon{
+    width: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: #636f88;
+}
+
+.quick-searches{
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight:800;
+}
+.qs-subtitle{
+    color: #8c96ab;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.card{
+    width: 360px;
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding-left: 0;
+}
+.card-img{
+    height: 100%;
+    width: auto;
+    border:none;
+    border-radius: 0;
+    
+}
+.card-title{
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-description{
+    text-align: left;
+    color: #8c96ab;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.container{
+    
+        margin-bottom:200px;
+    
+}
+
+@media only screen and (max-width:411px){
+    .createacc, .login{
+        font-size: 13px;
+    }
+    .restaurant-title-row{
+        padding-top: 1rem;
+    } 
+    .restaurant-title{
+        font-size: 30px;
+    }
+   .logo{
+       font-size: 45px;
+       height: 140px;
+       width: 140px;
+   }
+   
+}
+ @media only screen and (max-width:768px) and (min-width:412px) {
+    /* .login-signup-row{
+        display: flex;
+    } */
+     .createacc, .login{
+        font-size: 15px;
+    }
+    .restaurant-title-row{
+        padding-top: 1rem;
+    }
+    .logo-row{
+        margin-top: 20px;
+    }
+    .search-bar-row{
+        padding-top: 1rem;
+    }
+    .logo{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo{
+        font-size: 70px;
+    }
+    .restaurant-title{
+        font-size: 36px;
+    }
+    .restaurant-title-row{
+        padding-top: 2rem;
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
